@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A2E8CC1-F26A-7E24-DB63-6E3857BDE91D" name="TRANSACCION_PAGO ">
+<createdBy>alex</createdBy>
+<createdTime>2021-11-19 22:13:42 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="259709C2-2140-D8E8-91AA-76DF65F056BF">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 22:56:36 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="2A349063-D656-9E6B-506A-9FA8D215CCE0">
+<createdBy>alex</createdBy>
+<createdTime>2021-11-19 22:19:51 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_pago" id="5FF66B4F-9957-850A-73C9-5D8D29F35835">
+<createdBy>alex</createdBy>
+<createdTime>2021-11-19 22:13:53 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="8FDF5C22-28DE-7C3F-AD5D-18394918565C">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 22:56:19 UTC</createdTime>
+<generatorID>DA746FFE-CDA8-1358-D909-674208A46E3E</generatorID>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C8DECDFF-9892-EFD8-7E53-E790C21BEDFC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D55A5B94-7D32-2BBF-FCE3-8B27FE23AB1B">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 22:56:23 UTC</createdTime>
+<generatorID>143F2DFE-4568-423A-B24A-1A99775C28CE</generatorID>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<referedAttribute>079466D3-3061-51B5-FB4D-EED1FDC5BCC7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9515B6FE-9572-90E8-7BD9-9BC2091B33A9" name="TRANSACCION / PAGO  PK">
+<createdBy>alex</createdBy>
+<createdTime>2021-11-19 22:14:44 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D55A5B94-7D32-2BBF-FCE3-8B27FE23AB1B</attributeRef>
+<attributeRef>259709C2-2140-D8E8-91AA-76DF65F056BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="998F36F8-94A2-21E8-820B-DF253ECE25C9" name="TEMAS_ESP">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 23:06:20 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2DE13EFD-742E-D1B0-17E5-103394594981">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 23:06:34 UTC</createdTime>
+<generatorID>22929B4E-32C6-561A-82D4-41AEBA7B424B</generatorID>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<referedAttribute>E81D224E-C617-C1E9-B535-580E8DB338BE</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D6A658FD-3817-5F79-CAE7-88A33726ECB7">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 23:06:48 UTC</createdTime>
+<generatorID>450AE739-298D-E942-793A-AD99032760D7</generatorID>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<referedAttribute>B6FD1291-CDFB-7E68-2F67-1453D8E2B8FA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50CE87CA-94A5-FD3A-1C49-0D2FB243DBDD" name="TEMAS_ESP PK">
+<createdBy>alex</createdBy>
+<createdTime>2021-12-13 23:06:37 UTC</createdTime>
+<ownerDesignName>Proyecto_ER</ownerDesignName>
+<engineerTo>
+<item key="505C1F6D-5793-1F5E-1614-9AFF517CDB91" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DE13EFD-742E-D1B0-17E5-103394594981</attributeRef>
+<attributeRef>D6A658FD-3817-5F79-CAE7-88A33726ECB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
