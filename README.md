@@ -1,0 +1,2 @@
+# Proyecto_bases_dos
+Proyecto de Agencia de Inteligencia dividido en varias partes del mundo, desarrollado en la base de datos Postgresql, todo el proyecto hecho en el lenguaje PL/PgSQL, funciones y procedimiento almacenados en la base de datos, para simplificar las validaciones a la hora de realizar una interfaz grafica para el proyecto y no tener doble validación de los mismos datos extraidos de la base de datos.
